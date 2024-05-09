@@ -33,5 +33,5 @@ permalink: /about_me/
 - ISO Cpp (https://isocpp.org/)
 
 ## Get in touch
-- [Github]<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=github" alt="Github Logo" align="centre" style="margin-center: 15px" height=15></a>(https://github.com/ravikiranbvn)
-- [LinkedIn] <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin Logo" align="centre" style="margin-center: 15px" height=15></a>(https://www.linkedin.com/in/ravikiranbvn/)
+- <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=github" alt="Github Logo" align="centre" style="margin-center: 15px" height=15></a> [Github](https://github.com/ravikiranbvn)
+- <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin Logo" align="centre" style="margin-center: 15px" height=15></a>[LinkedIn](https://www.linkedin.com/in/ravikiranbvn/)
