@@ -7,7 +7,6 @@ permalink: /about_me/
 <h1 align="center">Hey there, I'm Ravi!</h1>
 <h3 align="center">A Software engineer, working in Germany</h3>
 
-## 💬 Ask me about
 - Currently working on satellite communication systems 
   - SW Architecture for real time systems
   - SW design/development using C/C++17/python for Embedded Linux/microcontroller platforms
@@ -16,7 +15,7 @@ permalink: /about_me/
 
 ## 📅 Hobbies
 - Hobby projects: 
-   - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a>[Linux From Scratch (LFS)](https://www.linuxfromscratch.org/)
+   - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a> [Linux From Scratch (LFS)](https://www.linuxfromscratch.org/)
    - Rpi4 <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="centre" style="margin-center: 15px" height=15></a>
   
 - Reading books on interpesonal skills and human psychology
