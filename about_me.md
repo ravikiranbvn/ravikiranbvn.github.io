@@ -8,9 +8,10 @@ permalink: /about_me/
 <h3 align="center">A Software engineer, working in Germany</h3>
 
 ## 💬 Ask me about
-- Currently working on satellite communication systems - SW design/development using C++17 and Embedded Linux platform
+- Currently working on satellite communication systems 
+  - SW Architecture for real time systems
+  - SW design/development using C/C++17/python for Embedded Linux/microcontroller platforms
 - Previously worked on medical/IOT systems developmnent using C++, RTOS, GUI/Qt
-- SW Desgin patterns
 - 🎓 Masters graduate in Electronics Engineering (Microsystems) from HS Bremen, Germany
 
 ## 📅 Hobbies
