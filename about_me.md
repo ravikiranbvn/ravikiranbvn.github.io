@@ -13,6 +13,15 @@ permalink: /about_me/
 - Previously worked on medical/IOT systems developmnent using C++, RTOS, GUI/Qt
 - 🎓 Masters graduate in Electronics Engineering (Microsystems) from HS Bremen, Germany
 
+## Tech talks
+- CppIndia2023: Understanding common concurrency patterns with tricky examples
+  - [Link](https://www.youtube.com/watch?v=MH-e1Js3sFE&t=2372s&ab_channel=CppIndia)
+  - [Code/ppt](https://github.com/ravikiranbvn/repobvn/blob/master/CppIndiaCon2023_talk/Understanding_common_concurrency_patterns_ravi.pdf)
+
+- Introduction to Yocto project with Docker and Github
+  - [Link](https://www.youtube.com/watch?v=DPs36IuriBg&list=PLByfncK_WwXzY2wFTyeJjiFtHPmMYORum&index=17&ab_channel=BalemarthyVamsi)
+  - [Code](https://github.com/ravikiranbvn/qemu_x86_yocto_workflow)
+
 ## 📅 Hobbies
 - Hobby projects: 
    - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a> [Linux From Scratch (LFS)](https://www.linuxfromscratch.org/)
