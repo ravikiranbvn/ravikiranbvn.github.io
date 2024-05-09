@@ -30,7 +30,7 @@ linkedin_username: ravikiranbvn
 github_username:  ravikiranbvn
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
