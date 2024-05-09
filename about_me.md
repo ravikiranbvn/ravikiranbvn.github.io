@@ -15,12 +15,12 @@ permalink: /about_me/
 
 ## 📅 Hobbies
 - Hobby projects: 
-   - Linux <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a> From Scratch (LFS) 📚(https://www.linuxfromscratch.org/)
-   - Rpi4 <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="centre" style="margin-center: 15px" height=15></a> baremetal/custom embedded linux development using C/C++/Python
+   - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a>[Linux From Scratch (LFS)](https://www.linuxfromscratch.org/)
+   - Rpi4 <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="centre" style="margin-center: 15px" height=15></a>
   
 - Reading books on interpesonal skills and human psychology
-    - 📚(https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
-    - 📚(https://www.amazon.de/-/en/Mikael-Krogerus/dp/0241982286)
+    - 📚 [TFS](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+    - 📚 [TCB](https://www.amazon.de/-/en/Mikael-Krogerus/dp/0241982286)
     
 - 📝 Writing short lines/quotes on life in free time
 
@@ -29,8 +29,8 @@ permalink: /about_me/
 - ✈️ Travelling with my partner in free time
 
 ## Follower
-- CppCon(https://cppcon.org/)
-- ISO Cpp(https://isocpp.org/)
+- [CppCon](https://cppcon.org/)
+- [ISO Cpp](https://isocpp.org/)
 
 ## Get in touch
 - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=github" alt="Github Logo" align="centre" style="margin-center: 15px" height=15></a> [Github](https://github.com/ravikiranbvn)
