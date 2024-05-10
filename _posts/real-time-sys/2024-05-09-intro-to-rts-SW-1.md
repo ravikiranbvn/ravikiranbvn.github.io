@@ -20,7 +20,7 @@ Features:
 - Time constraints:
   - event response (interrupt latency) 
   - scheduling (jitter between task switching)
-- [Into-to-real-time-systems](https://www.allaboutcircuits.com/technical-articles/introduction-to-real-time-embedded-systems/)
+- [Intro-to-real-time-systems](https://www.allaboutcircuits.com/technical-articles/introduction-to-real-time-embedded-systems/)
 - Therefore, we need a design and implementation to monitor and maintain such kind of a systems
 - Real Time Operating Systems (RTOS) provide such solutions:
    - design patterns for scheduling (non-preemptive and preemptive) and queueing
