@@ -13,7 +13,7 @@ permalink: /about_me/
   - platforms:
     - Zynq MpSoC/Rpi4/imx8 with Yocto based Embedded Linux
     - STM32, ESP32 microcontrollers with baremetal/FreeRTOS 
-- Previously worked on medical/IOT systems development using C++, RTOS, GUI/Qt
+- Previously worked on medical/IOT systems development
 - 🎓 Masters graduate in Electronics Engineering (Microsystems) from HS Bremen, Germany
 
 ## Tech talks
