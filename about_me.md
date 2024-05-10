@@ -9,7 +9,8 @@ permalink: /about_me/
 
 - Currently working on satellite communication systems 
   - SW Architecture for real time systems
-  - SW design/development using C/C++17/python
+  - SW design and development 
+  - languages: C/C++17/python
   - platforms:
     - Zynq MpSoC/Rpi4/imx8 with Yocto based Embedded Linux
     - STM32, ESP32 microcontrollers with baremetal/FreeRTOS 
@@ -17,7 +18,7 @@ permalink: /about_me/
 - 🎓 Masters graduate in Electronics Engineering (Microsystems) from HS Bremen, Germany
 
 ## Tech talks
-- CppIndia2023: Understanding common concurrency patterns with tricky examples
+- CppIndiaCon 2023: Understanding common concurrency patterns with tricky examples
   - [Link](https://www.youtube.com/watch?v=MH-e1Js3sFE&t=2372s&ab_channel=CppIndia)
   - [Code/ppt](https://github.com/ravikiranbvn/repobvn/blob/master/CppIndiaCon2023_talk/Understanding_common_concurrency_patterns_ravi.pdf)
 
