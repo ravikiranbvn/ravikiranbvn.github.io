@@ -13,11 +13,11 @@ categories: Real time system series
     - examples: personal computers, audio-systems not responding on time
 
 Features:
-- reliabitily, safety, maintainability, availability and security
+- reliability, safety, maintainability, availability and security
 - Time constraints:
   - event response (interrupt latency) 
   - scheduling (jitter between task switching)
-- [Link](https://www.allaboutcircuits.com/technical-articles/introduction-to-real-time-embedded-systems/)
+- [Into-to-real-time-systems](https://www.allaboutcircuits.com/technical-articles/introduction-to-real-time-embedded-systems/)
 - Therefore, we need a design and implementation to monitor and maintain such kind of a systems
 - Real Time Operating Systems (RTOS) provide such solutions:
    - design patterns for scheduling (non-preemptive and preemptive) and queueing
@@ -25,7 +25,7 @@ Features:
    - task priority, multi-threading, synchronization, Inter processor communications (IPC) mechanisms, interrupt handling
    - file system handling, debugging, tracking/monitoring of tasks
    - SysTick timer along with scheduler, handles the task switching
-    [Link](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
+  - [SysTick-timer](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
 - RTOS examples: FreeRTOS, QNX
 
 In essence, achieving real-time systems necessitates a meticulous customization of both hardware and software components.
