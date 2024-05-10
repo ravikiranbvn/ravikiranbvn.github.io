@@ -1,8 +1,10 @@
 ---
 layout: post
-title: real time systems - Intro
+title: real time systems - Intro I (SW)
 categories: Real time system series
 ---
+
+Hello EMBEDIN viewers,
 
 - A real-time system is characterized by its ability to produce the expected result within a time (to meet deadlines) and time synchronization   
   between different tasks
@@ -22,10 +24,11 @@ Features:
 - Real Time Operating Systems (RTOS) provide such solutions:
    - design patterns for scheduling (non-preemptive and preemptive) and queueing
    - smaller foot print of kernel
+   - effective CPU utilization
    - task priority, multi-threading, synchronization, Inter processor communications (IPC) mechanisms, interrupt handling
    - file system handling, debugging, tracking/monitoring of tasks
    - SysTick timer along with scheduler, handles the task switching
-  - [SysTick-timer](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
 - RTOS examples: FreeRTOS, QNX
 
 In essence, achieving real-time systems necessitates a meticulous customization of both hardware and software components.
+Next time, we will see more about real-time systems from hardware point of view. stay tuned!
