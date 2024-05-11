@@ -45,13 +45,7 @@ Features:
 In essence, achieving real-time systems necessitates a meticulous customization of both hardware and software components. Next time, we will see more about real-time systems from hardware point of view. stay tuned! 
 
 <!-- begin wwww.htmlcommentbox.com -->
-
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
-
-<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0">
-
- 
-
-<script type="text/javascript" id="hcb"> /<em>&lt;!--</em>/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement(&quot;script&quot;), l=hcb_user.PAGE || (&quot;&quot;+window.location).replace(/&#39;/g,&quot;%27&quot;), h=&quot;<a href="https://www.htmlcommentbox.com&quot;;s.setAttribute(&quot;type&quot;,&quot;text/javascript&quot;);s.setAttribute(&quot;src">https://www.htmlcommentbox.com&quot;;s.setAttribute(&quot;type&quot;,&quot;text/javascript&quot;);s.setAttribute(&quot;src</a>&quot;, h+&quot;/jread?page=&quot;+encodeURIComponent(l).replace(&quot;+&quot;,&quot;%2B&quot;)+&quot;&amp;mod=%241%24wq1rdBcg%24RmXC2fLP9uwV4kXjhF9Do.&quot;+&quot;&amp;opts=16798&amp;num=10&amp;ts=1715334874839&quot;);if (typeof s!=&quot;undefined&quot;) document.getElementsByTagName(&quot;head&quot;)[0].appendChild(s);})(); /<em>--&gt;</em>/ </script>
-
- <!-- end www.htmlcommentbox.com -->
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24RmXC2fLP9uwV4kXjhF9Do."+"&opts=16798&num=10&ts=1715334874839");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
