@@ -68,9 +68,10 @@ Hello **EMBEDIN** viewers,
     - Real-time systems often operate in mission-critical environments where system failures can have severe consequences.
     - Hardware components should incorporate fault-tolerant features such as redundancy, error detection, and error recovery mechanisms.
     - examples:
-    - CRC checks on medical systems to handle patients data
-    - Implement a redundant memory array with error correction codes and dynamic redundancy management for fault tolerance in space systems,<br>
-      ensuring reliability through robust voting logic and environmental hardening.
+
+      - CRC checks on medical systems to handle patients data
+      - Implement a redundant memory array with error correction codes and dynamic redundancy management for fault tolerance in space systems,<br>
+        ensuring reliability through robust voting logic and environmental hardening.
 
   9. **Temperature and Environmental Considerations**:
 
