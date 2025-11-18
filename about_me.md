@@ -4,47 +4,98 @@ title: About Me
 permalink: /about_me/
 ---
 
-<h1 align="center">Hey there, I'm Ravi!</h1>
-<h3 align="center">A Software engineer, working in Germany</h3>
+<h1 align="center">🌑 Blackbox Astron</h1>
+<h3 align="center">Hi, I’m Ravi — Embedded Systems Engineer & Rust/Linux Enthusiast</h3>
 
-- Currently working on satellite communication systems 
-  - SW Architecture for real time systems
-  - SW design and development 
-  - languages: C/C++17/python
-  - platforms:
-    - Zynq MpSoC/Rpi4/imx8 with Yocto based Embedded Linux
-    - STM32, ESP32 microcontrollers with baremetal/FreeRTOS 
-- Previously worked on medical/IOT systems development
-- 🎓 Masters graduate in Electronics Engineering (Microsystems) from HS Bremen, Germany
+---
 
-## Tech talks
-- CppIndiaCon 2023: Understanding common concurrency patterns with tricky examples
-  - [Link](https://www.youtube.com/watch?v=MH-e1Js3sFE&t=2372s&ab_channel=CppIndia)
-  - [Code/ppt](https://github.com/ravikiranbvn/repobvn/blob/master/CppIndiaCon2023_talk/Understanding_common_concurrency_patterns_ravi.pdf)
+## 🚀 Who I Am
 
-- Introduction to Yocto project with Docker and Github
-  - [Link](https://www.youtube.com/watch?v=DPs36IuriBg&list=PLByfncK_WwXzY2wFTyeJjiFtHPmMYORum&index=17&ab_channel=BalemarthyVamsi)
-  - [Code](https://github.com/ravikiranbvn/qemu_x86_yocto_workflow)
+I’m an engineer who enjoys building **low-level, high-reliability systems** where software meets hardware.  
+My work focuses on:
 
-## 📅 Hobbies
-- Hobby projects: 
-   - <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux" alt="Linux Logo" align="centre" style="margin-center: 15px" height=15></a> [Linux From Scratch (LFS)](https://www.linuxfromscratch.org/)
-   - Rpi4 <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="centre" style="margin-center: 15px" height=15></a>
-  
-- Reading books on interpersonal skills and human psychology
-    - 📚 [TFS](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
-    - 📚 [TCB](https://www.amazon.de/-/en/Mikael-Krogerus/dp/0241982286)
-    
-- 📝 Writing short lines/quotes on life in free time
+- Embedded Linux (Yocto, U-Boot, Device Tree)
+- ARM-based platforms (Zynq MPSoC / i.MX / Raspberry Pi)
+- Rust and C/C++ for real-time, systems-level software
+- Microcontrollers with FreeRTOS or baremetal
+- State machines, protocol design, and deterministic pipelines
 
-## Explore
-- 💻 Build stuff from scratch
-- ✈️  Travel with my partner in free time
+I like solving problems close to the metal — where timing, memory, architecture, and correctness truly matter.
 
-## Follower
-- [CppCon](https://cppcon.org/)
-- [ISO Cpp](https://isocpp.org/)
+---
 
-## Get in touch
-- <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=github" alt="Github Logo" align="centre" style="margin-center: 15px" height=15></a> [Github](https://github.com/ravikiranbvn)
-- <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin Logo" align="centre" style="margin-center: 15px" height=15></a> [LinkedIn](https://www.linkedin.com/in/ravikiranbvn/)
+## 🌑 Why *Blackbox Astron*?
+
+Because I treat every system like a **spacecraft blackbox**:
+
+- Minimal  
+- Predictable  
+- Instrumented  
+- Resilient  
+- Debuggable down to the wire  
+
+And **“Astron”** reflects my deep interest in space systems, mission design, and high-reliability engineering.
+
+---
+
+## 🛰 What I’ve Worked On
+
+- Designing software architecture for **real-time embedded systems**
+- Building communication layers and protocol handlers
+- Developing device-level modules and hardware–software control logic
+- Working with DMA pipelines, buffers, and performance-critical data paths
+- Creating tooling and workflows to improve developer efficiency
+- Delivering embedded systems used in real environments  
+- Prototyping across various platforms (MPSoC, Raspberry Pi, i.MX) from scratch
+- Participating in recruiting hardware and FPGA engineers
+- Exploring collaborations in the digital/embedded world
+- Continuously challenging myself with new technical problems
+
+Previously, I have worked across:
+
+- **Medical devices**  
+- **IoT systems**  
+- **Embedded R&D projects**  
+- **Linux platform bring-up**  
+- **Firmware and driver-level development**  
+
+I enjoy building systems that require reliability, clarity, and strong architectural foundations.
+
+---
+
+## 📚 Talks & Contributions
+
+### **CppIndiaCon 2023 — Concurrency Patterns in Modern C++**
+- 🎥 *Video:*  
+  https://www.youtube.com/watch?v=MH-e1Js3sFE  
+- 📝 *Slides & code:*  
+  https://github.com/ravikiranbvn/repobvn/blob/master/CppIndiaCon2023_talk/Understanding_common_concurrency_patterns_ravi.pdf
+
+### **Introduction to the Yocto Project with Docker**
+- 🎥 https://www.youtube.com/watch?v=DPs36IuriBg  
+- 🔧 Code: https://github.com/ravikiranbvn/qemu_x86_yocto_workflow
+
+---
+
+## 🔧 Hobbies & Side Projects
+
+- Building things *from scratch* — Linux From Scratch, custom kernels, toolchains  
+- Experimenting with Raspberry Pi and embedded boards  
+- Automation and system-level tooling  
+- Reading about human psychology and communication  
+- Writing short thoughts/one-liners about life  
+- Traveling and exploring new places with my partner  
+
+---
+
+## 🌍 Things I Follow
+
+- Rust ecosystem  
+- Linux kernel and open-source developments  
+- CppCon  
+- ISO C++  
+- Space-tech and aerospace engineering  
+
+---
+
+<p align="center"><i>“Every system is a black box — until you open it.”</i><br>— Blackbox Astron</p>
