@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Minima base styles -->
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+    <!-- Terminal fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Your custom terminal theme -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        
+        {% if site.header_pages %}
+        <nav class="site-nav">
+          {% for page in site.header_pages %}
+            {% assign my_page = site.pages | where: "path", page | first %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {% endfor %}
+        </nav>
+        {% endif %}
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        © {{ site.author }} — Powered by Jekyll
+      </div>
+    </footer>
+  </body>
+</html>
