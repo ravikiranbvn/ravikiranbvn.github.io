@@ -1,6 +1,7 @@
 title: EMBEDIN Terminal
-description: "The Blackbox Astron Log — Embedded Linux, Rust, and Real-Time Systems
-              All the views and thoughts are my own!"
+description: >-
+  The Blackbox Astron Log — Embedded Linux, Rust, and Real-Time Systems.
+  All the views and thoughts are my own!
 
 baseurl: ""
 url: "https://embedin.github.io"
