@@ -1,11 +1,9 @@
-title: EMBEDIN
-description: >-
-  Welcome to EMBEDIN blog!
-  Here you can explore concise insights into embedded systems, distilled from practical work experience.
-  All the views and thoughts are my own!
+title: EMBEDIN Terminal
+description: "The Blackbox Astron Log — Embedded Linux, Rust, and Real-Time Systems
+              All the views and thoughts are my own!"
 
 baseurl: ""
-url: ""
+url: "https://embedin.github.io"
 
 theme: minima
 
