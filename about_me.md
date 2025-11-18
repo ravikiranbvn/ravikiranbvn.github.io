@@ -5,7 +5,7 @@ permalink: /about_me/
 ---
 
 <p align="center">
-  <img src="/assets/css/img/bba_terminal.jpg" width="85%" style="border-radius:12px;">
+  <img src="/assets/img/bba_terminal.jpg" width="85%" style="border-radius:12px;">
 </p>
 
 <h1 align="center">🌑 Blackbox Astron</h1>
