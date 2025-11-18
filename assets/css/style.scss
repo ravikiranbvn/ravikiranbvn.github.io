@@ -101,3 +101,30 @@ body {
   margin-bottom: 2rem;
   box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
 }
+
+/* ===== HEADER NAV (dark mode visibility) ===== */
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border-bottom: 1px solid rgba(120, 255, 200, 0.2);
+}
+
+/* Title in header (EMBEDIN Terminal) */
+.site-title {
+  color: #7fd0ff !important;
+  text-shadow: 0 0 4px rgba(120, 200, 255, 0.6);
+}
+
+/* Navigation links (About, About Me, etc.) */
+.site-nav .page-link {
+  color: #a8f1ff !important;
+  text-decoration: none !important;
+  margin-left: 12px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.site-nav .page-link:hover {
+  background: rgba(120, 255, 200, 0.15);
+  color: white !important;
+  text-shadow: 0 0 6px rgba(120, 255, 200, 0.8);
+}

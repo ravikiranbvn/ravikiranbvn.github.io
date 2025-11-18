@@ -4,7 +4,7 @@ description: >-
   All the views and thoughts are my own!
 
 baseurl: ""
-url: "https://embedin.github.io"
+url: ""
 
 theme: minima
 
