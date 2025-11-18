@@ -79,3 +79,19 @@ body:before {
   background: #00ff9c;
   color: #000;
 }
+
+/* Space background with slight parallax effect */
+body {
+  background: url('/assets/img/space-bg.jpg') no-repeat center center fixed,
+              #050505;
+  background-size: cover;
+  color: #d4f0ff;
+}
+
+/* Optional glassy terminal panel glow */
+.page-content, .post-content, .wrapper {
+  background: rgba(5, 5, 5, 0.72);
+  backdrop-filter: blur(4px);
+  border: 1px solid #0f232f;
+  box-shadow: 0 0 18px rgba(0, 255, 150, 0.1);
+}
