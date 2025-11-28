@@ -4,68 +4,68 @@ title: About Me
 permalink: /about_me/
 ---
 
+---
+
 <p align="center">
-  <img src="/assets/img/bba_terminal.jpg" width="85%" style="border-radius:12px;">
+  <h2>Hi, I'm Ravi — also known as <strong>BlackBox Astron</strong>.</h2>
+  <p>I am an Embedded Systems Engineer specializing in Linux-based platforms, real-time systems, and high-reliability embedded architectures across IoT, medical, and space domains.</p>
 </p>
-<h3 align="center">Embedded Systems Engineer & Rust/Linux Enthusiast</h3>
 
 ---
 
-## 🚀 Who I Am
+# Professional Biography
 
-I’m an engineer who enjoys building <strong>low-level, high-reliability systems</strong> where software meets hardware.  
-My work focuses on:
+I began my career in Electrical Engineering in India, developing a strong interest in microcontroller programming, power electronics, and control systems. During my undergraduate years, I spent many late nights experimenting with Turbo C, simulating embedded circuits in Proteus, and assembling prototype boards based on designs from *Electronics For You*. These early hands-on experiences shaped my long-term commitment to engineering.
 
-- Embedded Linux (Yocto, U-Boot, Device Tree)
-- ARM-based platforms (Zynq MPSoC / i.MX / Raspberry Pi)
-- Rust and C/C++ for real-time, systems-level software
-- Microcontrollers with FreeRTOS or baremetal
-- State machines, protocol design, and deterministic pipelines
+A defining stage of my academic journey was my time at **BHEL R&D, Hyderabad**, where I was introduced to a professional engineering environment and inspired by experienced mentors. I worked with **Texas Instruments DSP microcontrollers**, designing buck–boost DC/DC converters during a summer internship. My senior-year projects included:
 
-I like solving problems close to the metal — where timing, memory, architecture, and correctness truly matter.
+- A **PC-based industrial automation system** using an Atmel microcontroller programmed in Assembly  
+- A **three-phase inverter drive for Indian Railways**, implemented on a TMS340 DSP in C at BHEL R&D  
+
+During this period, I also created a technical quiz titled *“Device Cracking,”* focused on identifying and reasoning about electronic components and circuits. It became a popular event at my college and was continued by subsequent student teams.
 
 ---
 
-## 🌑 Why <em>Blackbox Astron</em>?
+## Early Career and Transition to Germany
 
-Because I treat every system like a <strong>spacecraft blackbox</strong>:
+My professional journey began as a Software Engineer, where I worked for nearly three years on the Data Reconciliation project. This role strengthened my analytical and problem-solving abilities, along with communication skills developed in a multinational environment.
 
-- Minimal  
-- Predictable  
-- Instrumented  
-- Resilient  
-- Debuggable down to the wire  
-
-And <strong>“Astron”</strong> reflects my deep interest in space systems, mission design, and high-reliability engineering.
+However, I soon realized how much I missed working directly with electronics. Motivated by this, and with support from peers and mentors, I decided to realign my career toward embedded systems. After 25 years in Hyderabad, I relocated to **Germany in March 2014**, marking a significant personal and professional transition.
 
 ---
 
-## 🛰 What I’ve Worked On
+## Graduate Studies and Technical Development
 
-- Designing software architecture for <strong>real-time embedded systems</strong>
-- Building communication layers and protocol handlers
-- Developing device-level modules and hardware–software control logic
-- Working with DMA pipelines, buffers, and performance-critical data paths
-- Creating tooling and workflows to improve developer efficiency
-- Delivering embedded systems used in real environments  
-- Prototyping across various platforms (MPSoC, Raspberry Pi, i.MX) from scratch
-- Participating in recruiting hardware and FPGA engineers
-- Exploring collaborations in the digital/embedded world
-- Continuously challenging myself with new technical problems
+At **Hochschule Bremen**, I strengthened my foundation in electronics through coursework and project work in IC fabrication, mixed-signal and analog IC design, and advanced hardware verification using SystemVerilog. I gained practical experience with tools such as QuestaSim, Cadence, SPICE, and MATLAB/SIMULINK, and developed embedded software in C/C++ and Python on Raspberry Pi platforms.
 
-Previously, I have worked across:
-
-- <strong>Medical devices</strong>  
-- <strong>IoT systems</strong>  
-- <strong>Embedded R&D projects</strong>  
-- <strong>Linux platform bring-up</strong>  
-- <strong>Firmware and driver-level development</strong>  
-
-I enjoy building systems that require reliability, clarity, and strong architectural foundations.
+Living and studying in Germany also exposed me to its broader engineering ecosystem — from the precision and discipline of its automotive sector to the culture of rigorous validation and methodical design. This environment significantly shaped my engineering mindset and reinforced principles of reliability, clarity, and technical depth.
 
 ---
 
-## 📚 Talks & Contributions
+## Professional Experience in Embedded Systems
+
+Since 2017, my work has spanned **IoT systems, intercom systems, medical devices**, and the **space sector**, where I continue to contribute today. Across these roles, I have designed and implemented:
+
+- Real-time embedded architectures  
+- Deterministic state-machine-driven communication pipelines  
+- Hardware–software integration layers  
+- Device-level modules and protocol handlers  
+- Performance-critical data paths including DMA pipelines  
+
+A particularly meaningful phase involved developing embedded software for **medical devices**, including heart-lung machines and critical-care systems. Working with life-critical equipment provided invaluable technical and personal insights and remains one of the most impactful experiences of my career.
+
+---
+
+## Professional Ethos
+
+Throughout my journey, three qualities have remained constant:  
+**a continuous desire to learn, a commitment to engineering clarity, and the patience to pursue depth over shortcuts.**
+
+The German engineering environment has played a significant role in shaping my approach to quality, precision, and system-level thinking. Today, I continue to work on high-reliability embedded systems across diverse technologies and application domains.
+
+---
+
+# 📚 Talks & Contributions
 
 ### CppIndiaCon 2023 — Concurrency Patterns in Modern C++
 - 🎥 <a href="https://www.youtube.com/watch?v=MH-e1Js3sFE" target="_blank">Video</a>  
@@ -77,25 +77,26 @@ I enjoy building systems that require reliability, clarity, and strong architect
 
 ---
 
-## 🔧 Hobbies & Side Projects
+# 🔧 Hobbies & Side Projects
 
-- Building things <em>from scratch</em> — LFS, custom kernels, toolchains  
+- Building systems and tools from scratch — LFS, custom kernels, toolchains  
 - Experimenting with Raspberry Pi and embedded boards  
 - Automation and system-level tooling  
 - Reading about human psychology and communication  
-- Writing short thoughts and one-liners about life  
+- Writing short reflections and one-liners  
 - Traveling and exploring new places with my partner  
 
 ---
 
-## 🌍 Things I Follow
+# 🌍 Things I Follow
 
 - Rust ecosystem  
 - Linux kernel & open-source development  
 - CppCon  
 - ISO C++  
+- Elektor and EFY magazine
 - Space-tech and aerospace engineering  
 
 ---
 
-<p align="center"><i>“Every system is a black box — until you open it.”</i><br>— Blackbox Astron</p>
+<p align="center"><i>“Every system is a black box — until you open it. - BlackBox Astron”</i></p>
