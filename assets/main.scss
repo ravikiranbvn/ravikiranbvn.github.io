@@ -1,13 +1,15 @@
 ---
 ---
 
-@import "minima";
+/* === THIS MATCHES MINIMA EXACTLY === */
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 
 /* ===============================
    BLACKBOX ASTRON TERMINAL THEME
    =============================== */
 
-/* ===== GLOBAL BODY ===== */
 body {
   background: url('/assets/img/space-bg.jpg') no-repeat center center fixed,
               #050505;
@@ -16,7 +18,7 @@ body {
   font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
 }
 
-/* ===== LINKS ===== */
+/* Links */
 a {
   color: #7fd0ff;
   text-decoration: none;
@@ -26,51 +28,26 @@ a {
 a:hover {
   color: #b8e6ff;
   border-bottom: 1px solid #b8e6ff;
-  transition: 0.15s ease-in-out;
 }
 
-/* ===== HEADINGS ===== */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: #62ff86;
   font-family: "Fira Code", "JetBrains Mono", monospace;
 }
 
-/* ===== CODE BLOCKS ===== */
+/* Code */
 pre, code {
   background-color: #0c0c0c !important;
   color: #00ff9c !important;
   border: 1px solid #1f1f1f;
   padding: 0.6rem;
   border-radius: 6px;
-  line-height: 1.6 !important;
+  line-height: 1.6;
 }
 
-/* ===== CRT SCANLINE EFFECT ===== */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(
-    rgba(255,255,255,0.015),
-    rgba(255,255,255,0.015) 1px,
-    transparent 2px,
-    transparent 3px
-  );
-  z-index: 9999;
-}
-
-/* ===== HEADER / FOOTER ===== */
-.site-header,
-.site-footer {
-  background-color: rgba(0, 0, 0, 0.85) !important;
-  border-top: 1px solid rgba(120, 255, 200, 0.2);
-  border-bottom: 1px solid rgba(120, 255, 200, 0.2);
-}
-
-/* ===== POST CONTAINER ===== */
+/* Containers */
 .page-content,
-.post-content,
 .wrapper {
   background: rgba(10, 10, 10, 0.70);
   backdrop-filter: blur(6px);
@@ -83,31 +60,10 @@ body::before {
   box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
 }
 
-/* ===== NAV ===== */
-.site-title {
-  color: #7fd0ff !important;
-  text-shadow: 0 0 4px rgba(120, 200, 255, 0.6);
-}
-
-.site-nav .page-link {
-  color: #a8f1ff !important;
-  margin-left: 12px;
-  padding: 6px;
-  border-radius: 4px;
-}
-
-.site-nav .page-link:hover {
-  background: rgba(120, 255, 200, 0.15);
-  color: white !important;
-  text-shadow: 0 0 6px rgba(120, 255, 200, 0.8);
-}
-
 /* ===============================
-   FINAL TYPOGRAPHY OVERRIDE
-   THIS IS THE FIX
+   THIS IS THE LINE-HEIGHT FIX
    =============================== */
 
-/* OVERRIDE MINIMA DIRECTLY */
 p,
 li {
   line-height: 2.0 !important;
