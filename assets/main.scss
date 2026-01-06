@@ -1,15 +1,13 @@
 ---
 ---
 
-/* === THIS MATCHES MINIMA EXACTLY === */
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+@import "minima";
 
 /* ===============================
    BLACKBOX ASTRON TERMINAL THEME
    =============================== */
 
+/* ===== GLOBAL BODY ===== */
 body {
   background: url('/assets/img/space-bg.jpg') no-repeat center center fixed,
               #050505;
@@ -18,25 +16,24 @@ body {
   font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
 }
 
-/* Links */
+/* ===== LINKS ===== */
 a {
   color: #7fd0ff;
   text-decoration: none;
   border-bottom: 1px dashed #4eaedd;
 }
-
 a:hover {
   color: #b8e6ff;
   border-bottom: 1px solid #b8e6ff;
 }
 
-/* Headings */
+/* ===== HEADINGS ===== */
 h1, h2, h3, h4, h5, h6 {
   color: #62ff86;
   font-family: "Fira Code", "JetBrains Mono", monospace;
 }
 
-/* Code */
+/* ===== CODE BLOCKS ===== */
 pre, code {
   background-color: #0c0c0c !important;
   color: #00ff9c !important;
@@ -46,7 +43,7 @@ pre, code {
   line-height: 1.6;
 }
 
-/* Containers */
+/* ===== CONTENT CONTAINER ===== */
 .page-content,
 .wrapper {
   background: rgba(10, 10, 10, 0.70);
@@ -61,16 +58,18 @@ pre, code {
 }
 
 /* ===============================
-   THIS IS THE LINE-HEIGHT FIX
+   THIS IS THE FUCKING FIX
    =============================== */
 
+/* Minima sets p { line-height: 1.5 }
+   This overrides it globally */
 p,
 li {
   line-height: 2.0 !important;
   margin-bottom: 1.25em !important;
 }
 
-/* Selection */
+/* ===== SELECTION ===== */
 ::selection {
   background: #00ff9c;
   color: #000;
