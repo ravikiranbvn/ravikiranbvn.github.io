@@ -128,3 +128,18 @@ body {
   color: white !important;
   text-shadow: 0 0 6px rgba(120, 255, 200, 0.8);
 }
+
+/* ===============================
+   READABILITY OVERRIDES (FIX)
+   =============================== */
+
+/* Paragraphs & lists inside posts/pages */
+.page-content p,
+.page-content li,
+.post-content p,
+.post-content li,
+.wrapper p,
+.wrapper li {
+  line-height: 1.9 !important;
+  margin-bottom: 1.2em;
+}
