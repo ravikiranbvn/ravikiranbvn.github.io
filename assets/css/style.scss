@@ -1,0 +1,130 @@
+---
+---
+
+@import "minima";
+
+/* ===============================
+   BLACKBOX ASTRON TERMINAL THEME
+   =============================== */
+
+body {
+  background-color: #050505;
+  color: #d4f0ff;               /* soft neon-blue text */
+  font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+  line-height: 1.8;
+}
+
+/* Links – neon blue */
+a {
+  color: #7fd0ff;
+  text-decoration: none;
+  border-bottom: 1px dashed #4eaedd;
+}
+
+a:hover {
+  color: #b8e6ff;
+  border-bottom: 1px solid #b8e6ff;
+  transition: 0.15s ease-in-out;
+}
+
+/* Headings – terminal-style green */
+h1, h2, h3, h4, h5, h6 {
+  color: #62ff86;
+  font-family: "Fira Code", "JetBrains Mono", monospace;
+}
+
+/* Code blocks – CRT style */
+pre, code {
+  background-color: #0c0c0c !important;
+  color: #00ff9c !important;
+  border: 1px solid #1f1f1f;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+/* Terminal scanline / subtle CRT glow */
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    rgba(255,255,255,0.015),
+    rgba(255,255,255,0.015) 1px,
+    transparent 2px,
+    transparent 3px
+  );
+  z-index: 9999;
+}
+
+.site-header, .site-footer {
+  background-color: #0a0a0a !important;
+  border-bottom: 1px solid #111 !important;
+  border-top: 1px solid #111 !important;
+}
+
+/* Posts content container – dark panel */
+.page-content, .post-content, .wrapper {
+  background-color: #080808 !important;
+  padding: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #131313;
+}
+
+/* Smooth cursor blink effect for fun */
+::selection {
+  background: #00ff9c;
+  color: #000;
+}
+
+/* Space background with slight parallax effect */
+body {
+  background: url('/assets/img/space-bg.jpg') no-repeat center center fixed,
+              #050505;
+  background-size: cover;
+  color: #d4f0ff;
+}
+
+.page-content,
+.post-content,
+.wrapper {
+  background: rgba(10, 10, 10, 0.70);    /* transparent black */
+  backdrop-filter: blur(6px);            /* smooth glass effect */
+  -webkit-backdrop-filter: blur(6px);    /* Safari support */
+  border: 1px solid rgba(120, 255, 200, 0.15);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== HEADER NAV (dark mode visibility) ===== */
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border-bottom: 1px solid rgba(120, 255, 200, 0.2);
+}
+
+/* Title in header (EMBEDIN Terminal) */
+.site-title {
+  color: #7fd0ff !important;
+  text-shadow: 0 0 4px rgba(120, 200, 255, 0.6);
+}
+
+/* Navigation links (About, About Me, etc.) */
+.site-nav .page-link {
+  color: #a8f1ff !important;
+  text-decoration: none !important;
+  margin-left: 12px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.site-nav .page-link:hover {
+  background: rgba(120, 255, 200, 0.15);
+  color: white !important;
+  text-shadow: 0 0 6px rgba(120, 255, 200, 0.8);
+}
