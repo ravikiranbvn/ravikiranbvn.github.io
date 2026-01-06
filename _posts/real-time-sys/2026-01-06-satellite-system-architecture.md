@@ -32,7 +32,7 @@ At a system level, satellites are part of a broader architecture consisting of:
 - the **control segment**.
 
 A good high-level overview of this system-level view is:
-- https://www.techtarget.com/searchnetworking/tip/An-introduction-to-satellite-network-architecture
+- [Satellite Network](https://www.techtarget.com/searchnetworking/tip/An-introduction-to-satellite-network-architecture)
 
 ---
 
@@ -158,7 +158,7 @@ Radiation is a primary environmental threat in space. Electronic components are 
 - Suitable for shorter missions or less harsh environments
 
 A practical explanation of these trade-offs:
-- https://militaryembedded.com/comms/satellites/rad-hard-vs-rad-tolerant-a-guide-to-the-differences-and-applications-in-military-electronics
+- [Rad-hard vs Rad-tolerant – Military Embedded](https://militaryembedded.com/comms/satellites/rad-hard-vs-rad-tolerant-a-guide-to-the-differences-and-applications-in-military-electronics)
 
 ---
 
@@ -290,7 +290,7 @@ Recovery is usually **hierarchical**:
 > Safe mode is not failure — it is controlled survival.
 
 A practical lesson from NASA on spacecraft fault management:
-- https://llis.nasa.gov/lesson/839
+- [NASA LLIS – Spacecraft Fault Management](https://llis.nasa.gov/lesson/839)
 
 ---
 
@@ -331,7 +331,5 @@ Satellite systems are designed around **controlled failure**.
 
 ## Further Reading & References
 
-- https://www.techtarget.com/searchnetworking/tip/An-introduction-to-satellite-network-architecture
-- https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/aerospace-07-00146-v2.pdf
-- https://militaryembedded.com/comms/satellites/rad-hard-vs-rad-tolerant-a-guide-to-the-differences-and-applications-in-military-electronics
-- https://llis.nasa.gov/lesson/839
+- [Reusable & Reliable Flight Software (NASA PDF](https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/aerospace-07-00146-v2.pdf)
+- [NASA cfs](https://cfs.gsfc.nasa.gov/)
