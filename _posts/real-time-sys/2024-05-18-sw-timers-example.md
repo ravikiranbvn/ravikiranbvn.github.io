@@ -1,6 +1,6 @@
 ---
 layout: post
-title: real time systems - design problem 1 (SW Timers)
+title: real time systems - SW Timers example
 author: Venkata Naga Ravikiran Bulusu
 categories: Real time system series
 ---

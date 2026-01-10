@@ -1,6 +1,6 @@
 ---
 layout: post
-title: real time systems - Intro I (HW)
+title: real time systems - HW
 author: Venkata Naga Ravikiran Bulusu
 categories: Real time system series
 ---
