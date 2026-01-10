@@ -3,19 +3,23 @@
 @import "minima";
 
 /* =========================================================
-   EMBEDIN TERMINAL — CLEAN DARK SYSTEMS THEME
+   EMBEDIN TERMINAL — PROFESSIONAL DARK SYSTEMS THEME
    ========================================================= */
 
-/* ---------- Base ---------- */
+/* ===============================
+   Base
+   =============================== */
 body {
   background-color: #0b0e11;          /* deep graphite */
   color: #d6e2eb;
   font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.55;                  /* slightly dense, professional */
 }
 
-/* ---------- Links ---------- */
+/* ===============================
+   Links
+   =============================== */
 a {
   color: #7fd0ff;
   text-decoration: none;
@@ -27,7 +31,9 @@ a:hover {
   border-bottom: 1px solid #b6e6ff;
 }
 
-/* ---------- Header ---------- */
+/* ===============================
+   Header
+   =============================== */
 .site-header {
   background-color: #0b0e11 !important;
   border-bottom: 1px solid #1b222c;
@@ -52,9 +58,13 @@ a:hover {
   border-radius: 4px;
 }
 
-/* ---------- Content Width (CRITICAL) ---------- */
+/* ===============================
+   Content Width (KEY PART)
+   =============================== */
+/* Optimized for dense technical reading:
+   ~105–115 characters per line */
 .wrapper {
-  max-width: 900px;                 /* optimal for technical reading */
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.25rem;
@@ -63,34 +73,41 @@ a:hover {
 
 .page-content,
 .post-content {
-  max-width: 900px;
+  max-width: 1120px;
   margin: 0 auto;
   background-color: #0f1318;
   border: 1px solid #1b222c;
   border-radius: 4px;
-  padding: 1.75rem;
+  padding: 1.75rem 2rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
-/* ---------- Headings ---------- */
+/* ===============================
+   Headings
+   =============================== */
 h1, h2, h3, h4, h5, h6 {
-  color: #7ee787;                   /* calm terminal green */
+  color: #7ee787;                     /* calm terminal green */
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 2.2rem;
   margin-bottom: 1rem;
 }
 
-/* ---------- Paragraphs & Lists ---------- */
+/* ===============================
+   Text & Lists
+   =============================== */
 p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
 }
 
 ul, ol {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
+  padding-left: 1.4rem;
 }
 
-/* ---------- Code ---------- */
+/* ===============================
+   Code (GitHub / RFC style)
+   =============================== */
 pre, code {
   background-color: #0d1117 !important;
   color: #c9d1d9 !important;
@@ -100,7 +117,7 @@ pre, code {
 }
 
 pre {
-  padding: 1rem;
+  padding: 1rem 1.2rem;
   overflow-x: auto;
 }
 
@@ -109,22 +126,49 @@ code {
   padding: 0.15em 0.35em;
 }
 
-/* ---------- Blockquotes ---------- */
+/* ===============================
+   Blockquotes
+   =============================== */
 blockquote {
   border-left: 3px solid #30363d;
   padding-left: 1rem;
+  margin-left: 0;
   color: #9da7b3;
   background-color: transparent;
 }
 
-/* ---------- Footer ---------- */
+/* ===============================
+   Tables (important for architecture docs)
+   =============================== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  border: 1px solid #1f2933;
+  padding: 0.6rem 0.8rem;
+}
+
+th {
+  background-color: #161b22;
+  color: #7ee787;
+  font-weight: 600;
+}
+
+/* ===============================
+   Footer
+   =============================== */
 .site-footer {
   background-color: #0b0e11 !important;
   border-top: 1px solid #1b222c;
   color: #8b949e;
 }
 
-/* ---------- Selection ---------- */
+/* ===============================
+   Selection
+   =============================== */
 ::selection {
   background: #7ee787;
   color: #000;
