@@ -5,8 +5,6 @@ author: Venkata Naga Ravikiran Bulusu
 categories: Real time system series
 ---
 
-Hello **EMBEDIN** viewers,
-
 # Platform Setup
 
 After evaluating several options for setting up a development platform for this series, I chose **ESP32C6 board with VSCode and ESP-IDF (FreeRTOS v10.5.1)** on Ubuntu x86_64\. This option provides an excellent balance of ease of programming, straightforward setup, and a robust debugging environment.
@@ -61,11 +59,3 @@ This Timer Manager module is designed to handle software timers using FreeRTOS o
 ### Output
 
 ![Output](https://raw.githubusercontent.com/ravikiranbvn/esp32c6-FreeRTOS-tutorials/main/dp-1-SW-timers/assets/timer_manager_output.png)
-
-Thank you. Hope you liked it, stay tuned for more such posts.
-
-<!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24RmXC2fLP9uwV4kXjhF9Do."+"&opts=16798&num=10&ts=1715334874839");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->

@@ -5,8 +5,6 @@ author: Venkata Naga Ravikiran Bulusu
 categories: Real time system series
 ---
 
-Hello **EMBEDIN** viewers,
-
 - Real-time systems require hardware components that can meet stringent timing constraints and ensure predictable behavior.
 - Key requirements:
 
@@ -87,11 +85,4 @@ Hello **EMBEDIN** viewers,
 - This includes testing for timing accuracy, reliability, and compliance with relevant standards.
 - examples: medical systems
 
-Overall, hardware components in real-time systems must be carefully selected and configured to meet stringent timing constraints, ensure deterministic behavior, and provide reliable operation in mission-critical applications. Next time, we shall start with a design problem on timers, stay tuned!
-
-
-<!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24RmXC2fLP9uwV4kXjhF9Do."+"&opts=16798&num=10&ts=1715334874839");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
+Overall, hardware components in real-time systems must be carefully selected and configured to meet stringent timing constraints, ensure deterministic behavior, and provide reliable operation in mission-critical applications.
