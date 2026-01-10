@@ -1,6 +1,6 @@
 title: EMBEDIN Terminal
 description: >-
-  The Blackbox Astron Log — Embedded Linux, Rust, and Real-Time Systems.
+  Embedded Systems · Linux · Rust · System Architectures.
   All the views and thoughts are my own!
 
 baseurl: ""
@@ -14,6 +14,7 @@ plugins:
 header_pages: 
   - about_this_site.md
   - about_me.md
+  - portfolio.md
   - CV.md
 
 defaults:
