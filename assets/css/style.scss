@@ -173,3 +173,79 @@ th {
   background: #7ee787;
   color: #000;
 }
+
+/* =========================================================
+   Mobile overrides — preserve terminal style
+   ========================================================= */
+@media (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Narrow the reading column */
+  .wrapper {
+    max-width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .page-content,
+  .post-content {
+    max-width: 100%;
+    padding: 1.1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0; /* optional: edge-to-edge feel */
+  }
+
+  /* Typography tuning for mobile */
+  body {
+    font-size: 15.5px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+
+  /* Navigation: stack instead of squeeze */
+  .site-header .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    margin-top: 0.6rem;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    margin: 0.2rem 0;
+  }
+
+  /* Code must wrap on small screens */
+  pre, code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  pre {
+    padding: 0.9rem;
+  }
+
+  /* Tables: allow horizontal scroll if needed */
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
