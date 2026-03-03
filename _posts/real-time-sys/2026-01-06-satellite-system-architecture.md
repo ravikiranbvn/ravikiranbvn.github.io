@@ -333,3 +333,4 @@ Satellite systems are designed around **controlled failure**.
 
 - [Reusable & Reliable Flight Software (NASA PDF](https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/aerospace-07-00146-v2.pdf)
 - [NASA cfs](https://cfs.gsfc.nasa.gov/)
+- [How to Build a Satellite](https://www.youtube.com/watch?v=5voQfQOTem8)
